@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "95062927440",
+    "firebase_url": "https://book-share-92dfb.firebaseio.com",
+    "project_id": "book-share-92dfb",
+    "storage_bucket": "book-share-92dfb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:95062927440:android:4297ef7d56c8ecdf",
+        "android_client_info": {
+          "package_name": "com.theflash.hpw.bookshare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "95062927440-o7aqrs7kqje6roh9sc0lel2esja3ihhq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.theflash.hpw.bookshare",
+            "certificate_hash": "a9e10f3a8af248a04b3829e247549f5b0baa736d"
+          }
+        },
+        {
+          "client_id": "95062927440-imc70fokacdblfqe69u634u9lnnk21lp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnwV2lUCY2OA36PRWqyxJy9qqecAKgQBg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "95062927440-imc70fokacdblfqe69u634u9lnnk21lp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

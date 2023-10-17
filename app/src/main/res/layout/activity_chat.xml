@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#84e1d6"
+    tools:context=".chat">
+
+    <eu.long1.spacetablayout.SpaceTabLayout
+        android:id="@+id/tab"
+        android:layout_width="386dp"
+        android:layout_height="76dp"
+        app:button_color="#ff9f05"
+        app:icon_one="@drawable/home"
+        app:icon_three="@drawable/profile"
+        app:icon_two="@drawable/s2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:number_of_tabs="three_IconOnly"
+        app:starting_position="three"
+        app:tab_color="@color/colorPrimary"
+        app:text_color="#61FFFFFF" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/v1"
+        android:layout_width="392dp"
+        android:layout_height="675dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01999998">
+
+    </android.support.v4.view.ViewPager>
+
+
+</android.support.constraint.ConstraintLayout>
